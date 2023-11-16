@@ -187,22 +187,22 @@ def home_page():
 
 
     #Container de e-mails
-    with st.container():
-        st.write('')
+    #with st.container():
+    #    st.write('')
 
-        st.write('<b>E-mails:</b>',unsafe_allow_html = True)
+    #    st.write('<b>E-mails:</b>',unsafe_allow_html = True)
 
-        col21,col22,col23,col24,col25 = st.columns(5)
+    #   col21,col22,col23,col24,col25 = st.columns(5)
 
-        col21.write(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'+leticia_e)
+    #    col21.write(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'+leticia_e)
 
-        col22.write(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'+thiago_e)
+    #   col22.write(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'+thiago_e)
 
-        col23.write(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'+daniel_e)
+    #    col23.write(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'+daniel_e)
         
-        col24.write(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'+renan_e)
+    #    col24.write(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'+renan_e)
 
-        col25.write(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'+adriana_e)
+    #   col25.write(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'+adriana_e)
 
 
 def viveiro():
