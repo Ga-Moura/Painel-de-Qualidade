@@ -160,7 +160,7 @@ def home_page():
 
         col1.image(Image.open(leticia).resize((100, 100)))
 
-        col2.image(Image.open(thiago).resize((100,100)))
+        col2.image(Image.open(thiago).resize((120,120)))
 
         col3.image(Image.open(daniel).resize((100,100)))
 
