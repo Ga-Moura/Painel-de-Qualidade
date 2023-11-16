@@ -58,7 +58,7 @@ rafael = r'F:\Qualidade_Florestal\03- ADMINISTRATIVO\2023\06- COLABORADORES\Gabr
 
 thiago = r'F:\Qualidade_Florestal\03- ADMINISTRATIVO\2023\06- COLABORADORES\Gabriel\14 - Painel de Qualidade\Colaboradores\Thiago.png'
 
-leticia = r'F:\Qualidade_Florestal\03- ADMINISTRATIVO\2023\06- COLABORADORES\Gabriel\14 - Painel de Qualidade\Colaboradores\leticia.jpg'
+leticia = r'Colaboradores\leticia.jpg'
 
 renan = r'F:\Qualidade_Florestal\03- ADMINISTRATIVO\2023\06- COLABORADORES\Gabriel\14 - Painel de Qualidade\Colaboradores\renan.jpg'
 
