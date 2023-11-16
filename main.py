@@ -14,35 +14,35 @@ st.set_page_config(
 
 # Formulários
 
-qrcode_carregamento_1_nivel = r'/qrcode_survey/carregamento_1_nivel.png'
+qrcode_carregamento_1_nivel = r'qrcode_survey/carregamento_1_nivel.png'
 
-qrcode_carregamento_logistica = r'/qrcode_survey/carregamento_logistica.png'
+qrcode_carregamento_logistica = r'qrcode_survey/carregamento_logistica.png'
 
-qrcode_desperdicio = r'/qrcode_survey/desperdicio.png'
+qrcode_desperdicio = r'qrcode_survey/desperdicio.png'
 
-qrdcode_estradas_v1 = r'/qrcode_survey/estradas_v1.png'
+qrdcode_estradas_v1 = r'qrcode_survey/estradas_v1.png'
 
-qrcode_estradas = r'/qrcode_survey/estradas.png'
+qrcode_estradas = r'qrcode_survey/estradas.png'
 
-qrcode_apont_prod = r'/qrcode_survey/prod_segundo_nivel.png'
+qrcode_apont_prod = r'qrcode_survey/prod_segundo_nivel.png'
 
-qrcode_prod_tecnicos = r'/qrcode_survey/prod_tecnicos.png'
+qrcode_prod_tecnicos = r'qrcode_survey/prod_tecnicos.png'
 
-qrcode_plantio = r'/qrcode_survey/plantio.png'
+qrcode_plantio = r'qrcode_survey/plantio.png'
 
-qrcode_preparo = r'/qrcode_survey/preparo_solo.png'
+qrcode_preparo = r'qrcode_survey/preparo_solo.png'
 
-qrcode_adub_herb_prec = r'/qrcode_survey/adub_herb_prec.png'
+qrcode_adub_herb_prec = r'qrcode_survey/adub_herb_prec.png'
 
-qrcode_aducob = r'/qrcode_survey/adub_cob.png'
+qrcode_aducob = r'qrcode_survey/adub_cob.png'
 
-qrcode_irrig = r'/qrcode_survey/irrigacao.png'
+qrcode_irrig = r'qrcode_survey/irrigacao.png'
 
-qrcode_form_dose = r'/qrcode_survey/formiga_dose.png'
+qrcode_form_dose = r'qrcode_survey/formiga_dose.png'
 
-qrcode_form_acmp = r'/qrcode_survey/formiga_acom.png'
+qrcode_form_acmp = r'qrcode_survey/formiga_acom.png'
 
-qrcode_pulverizacao = r'/qrcode_survey/pulverizacao.png'
+qrcode_pulverizacao = r'qrcode_survey/pulverizacao.png'
 
 
 
