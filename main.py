@@ -455,9 +455,10 @@ def planejamento():
 
         planpath1,planpath2,planpath3 = st.columns(3)
 
-        if planpath1.button("Mapas de Parcelas", type ='secondary'):
-            os.startfile(path_mapas)
-
+        #if planpath1.button("Mapas de Parcelas", type ='secondary'):
+        #    os.startfile(path_mapas)
+        st.markdown(path_mapas,unsafe_allow_html = True)
+     
         if planpath2.button('Programação de Sobrevivência'):
             os.startfile(path_prog_sobrevivencia)
 
