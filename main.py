@@ -48,7 +48,9 @@ qrcode_pulverizacao = r'F:\Qualidade_Florestal\03- ADMINISTRATIVO\2023\06- COLAB
 
 # Foto Time São Paulo
 
-adriana = r"F:\Qualidade_Florestal\03- ADMINISTRATIVO\2023\06- COLABORADORES\Gabriel\14 - Painel de Qualidade\Colaboradores\Adriana.jpg"
+
+
+adriana = r"Colaboradores\Adriana.jpg"
 
 daniel = r'F:\Qualidade_Florestal\03- ADMINISTRATIVO\2023\06- COLABORADORES\Gabriel\14 - Painel de Qualidade\Colaboradores\Daniel.jpg'
 
