@@ -67,7 +67,7 @@ renan = r'Colaboradores/renan.jpg'
 
 pbi_carregamento = r'https://app.powerbi.com/reportEmbed?reportId=6a5470fd-6e89-464d-9f70-85a9e6e614f7&autoAuth=true&ctid=582d9d84-4800-4487-9b24-cdc6471551ae'
 
-pbi_silvicultura = r'https://app.powerbi.com/reportEmbed?reportId=e9e7722c-4ebd-4baf-bb5d-f811801f03ad&autoAuth=true&ctid=582d9d84-4800-4487-9b24-cdc6471551ae'
+pbi_silvicultura = r'https://app.powerbi.com/reportEmbed?reportId=2b3bbb87-aae4-40b1-8c33-89c298cc16e9&autoAuth=true&ctid=582d9d84-4800-4487-9b24-cdc6471551ae'
 
 pbi_aderencia = r'https://app.powerbi.com/reportEmbed?reportId=0db073cb-4d4d-49a7-b7fb-a848c0400532&autoAuth=true&ctid=582d9d84-4800-4487-9b24-cdc6471551ae'
 
