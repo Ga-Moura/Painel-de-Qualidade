@@ -244,21 +244,21 @@ def silvicultura():
 
 
     #container de paths
-    with st.container():
-        st.subheader('Consultas')
-        st.write('')
-        st.write('')
-        st.write('')
+    #with st.container():
+    #    st.subheader('Consultas')
+    #    st.write('')
+    #    st.write('')
+    #    st.write('')
 
-        silv_path,_ = st.columns(2)
+        #silv_path,_ = st.columns(2)
 
-        if silv_path.button('Relatórios Operacionais 2° Nível', type = 'secondary'):
-            os.startfile(path_silv)
+        #if silv_path.button('Relatórios Operacionais 2° Nível', type = 'secondary'):
+        #    os.startfile(path_silv)
 
-        st.write('')
-        st.write('')
-        st.write('')
-        st.write('')
+        #st.write('')
+        #st.write('')
+        #st.write('')
+        #st.write('')
 
 
     #Informações dos qrcodes
