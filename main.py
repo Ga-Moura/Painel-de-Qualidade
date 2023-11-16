@@ -339,31 +339,31 @@ def carregamento():
 
 
 #container de paths
-    with st.container():
+    #with st.container():
 
-        st.subheader('Consultas')
-        st.write('')
-        st.write('')
-        st.write('')
+        #st.subheader('Consultas')
+        #st.write('')
+        #st.write('')
+        #st.write('')
 
-        log_path1, log_path2, log_path3,log_path4,_ = st.columns(5)
+        #log_path1, log_path2, log_path3,log_path4,_ = st.columns(5)
 
-        if log_path1.button("Evidência de Estradas", type ='secondary'):
-            os.startfile(path_estradas)
+        #if log_path1.button("Evidência de Estradas", type ='secondary'):
+            #os.startfile(path_estradas)
 
-        if log_path2.button("Evidência de Estradas NP", type ='secondary'):
-            os.startfile(path_estradasv1)
+        #if log_path2.button("Evidência de Estradas NP", type ='secondary'):
+            #os.startfile(path_estradasv1)
 
-        if log_path3.button("Carregamento 1° Nível", type ='secondary'):
-            os.startfile(path_carreg_1_nivel)
+        #if log_path3.button("Carregamento 1° Nível", type ='secondary'):
+            #os.startfile(path_carreg_1_nivel)
 
-        if log_path4.button("Carregamento 2° Nível", type ='secondary'):
-            os.startfile(path_carregamento_logistica)
+        #if log_path4.button("Carregamento 2° Nível", type ='secondary'):
+            #os.startfile(path_carregamento_logistica)
 
-        st.write('')
-        st.write('')
-        st.write('')
-        st.write('')
+        #st.write('')
+        #st.write('')
+        #st.write('')
+        #st.write('')
 
 
 
@@ -446,29 +446,29 @@ def planejamento():
 
 #container de paths
 
-    with st.container():
+    #with st.container():
 
-        st.subheader('Consultas')
-        st.write('')
-        st.write('')
-        st.write('')
+        #st.subheader('Consultas')
+        #st.write('')
+        #st.write('')
+        #st.write('')
 
-        planpath1,planpath2,planpath3 = st.columns(3)
+        #planpath1,planpath2,planpath3 = st.columns(3)
 
-        if planpath1.button("Mapas de Parcelas", type ='secondary'):
-            os.startfile(path_mapas)
+        #if planpath1.button("Mapas de Parcelas", type ='secondary'):
+            #os.startfile(path_mapas)
        
      
-        if planpath2.button('Programação de Sobrevivência'):
-            os.startfile(path_prog_sobrevivencia)
+        #if planpath2.button('Programação de Sobrevivência'):
+            #os.startfile(path_prog_sobrevivencia)
 
-        if planpath3.button('Consulta de Produção Segundo Nível'):
-            os.startfile(path_prod_seg_nivel)
+        #if planpath3.button('Consulta de Produção Segundo Nível'):
+            #os.startfile(path_prod_seg_nivel)
         
-        st.write('')
-        st.write('')
-        st.write('')
-        st.write('')
+        #st.write('')
+        #st.write('')
+        #st.write('')
+        #st.write('')
 
 
 #container dos ícones
