@@ -160,7 +160,7 @@ def home_page():
 
         col1.image(Image.open(leticia).resize((100, 100)))
 
-        col2.image(Image.open(thiago).resize((120,120)))
+        col2.image(Image.open(thiago).resize((110,110)))
 
         col3.image(Image.open(daniel).resize((100,100)))
 
@@ -231,7 +231,7 @@ def viveiro():
 
 def silvicultura():
    
-    st.image(Image.open(thiago).resize((120,120)))
+    st.image(Image.open(thiago).resize((110,110)))
 
 
     st.image(Image.open(logo_path).resize((200, 50)))
