@@ -526,7 +526,7 @@ def planejamento():
 
         plan31.write(f'&nbsp;&nbsp;&nbsp;Survey - Produção 2° Nível')
 
-        plan32.write(f'&nbsp;&nbsp;&nbsp;Survey - Técnicos')
+        plan32.write(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Survey - Técnicos')
         
 
 #Botões e Páginas
