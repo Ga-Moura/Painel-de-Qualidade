@@ -308,17 +308,17 @@ def silvicultura():
         silv5,_,silv6,_,silv7,_,silv8,_ = st.columns(8)
 
         silv5.image(Image.open(qrcode_irrig))
-        silv5.write(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Survey - Irrigação',unsafe_allow_html=True)
+        silv5.write(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Survey - Irrigação',unsafe_allow_html=True)
 
 
         silv6.image(Image.open(qrcode_aducob).resize((200,200)))
-        silv6.write(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Survey - Adubação',unsafe_allow_html=True)
-        silv6.write(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De Cobertura',unsafe_allow_html=True)
+        silv6.write(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Survey - Adubação',unsafe_allow_html=True)
+        silv6.write(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De Cobertura',unsafe_allow_html=True)
 
 
         silv7.image(Image.open(qrcode_adub_herb_prec).resize((200,200)))
         silv7.write(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Survey - Adubação',unsafe_allow_html=True)
-        silv7.write(f'&nbsp;&nbsp;&nbsp;E herbicida de Precisão',unsafe_allow_html=True)
+        silv7.write(f'&nbsp;E herbicida de Precisão',unsafe_allow_html=True)
 
 
 
