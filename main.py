@@ -317,13 +317,13 @@ def silvicultura():
 
 
         silv7.image(Image.open(qrcode_adub_herb_prec).resize((200,200)))
-        silv7.write(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Survey - Adubação',unsafe_allow_html=True)
+        silv7.write(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Survey - Adubação',unsafe_allow_html=True)
         silv7.write(f'&nbsp;E herbicida de Precisão',unsafe_allow_html=True)
 
 
 
         silv8.image(Image.open(qrcode_pulverizacao).resize((200,200)))
-        silv8.write(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Survey - Pulverização',unsafe_allow_html=True)
+        silv8.write(f'&nbsp;&nbsp;&nbsp;&nbsp;Survey - Pulverização',unsafe_allow_html=True)
 
 
 def carregamento():
