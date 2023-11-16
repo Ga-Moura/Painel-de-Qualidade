@@ -312,7 +312,7 @@ def silvicultura():
 
 
         silv6.image(Image.open(qrcode_aducob).resize((200,200)))
-        silv6.write(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Survey - Adubação',unsafe_allow_html=True)
+        silv6.write(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Survey - Adubação',unsafe_allow_html=True)
         silv6.write(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De Cobertura',unsafe_allow_html=True)
 
 
@@ -526,7 +526,7 @@ def planejamento():
 
         plan31.write(f'&nbsp;&nbsp;&nbsp;Survey - Produção 2° Nível')
 
-        plan32.write(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Survey - Técnicos')
+        plan32.write(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Survey - Técnicos')
         
 
 #Botões e Páginas
