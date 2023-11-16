@@ -138,7 +138,7 @@ gabriel_e = 'gamoura'
 
 def home_page():
 
-    logo_path = r'F:\Qualidade_Florestal\03- ADMINISTRATIVO\2023\06- COLABORADORES\Gabriel\14 - Painel de Qualidade\icones\logo - Bracell.jpg'
+    logo_path = r'\icones\logo - Bracell.jpg'
 
     st.image(Image.open(logo_path).resize((200, 50)))
 
