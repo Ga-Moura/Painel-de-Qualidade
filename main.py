@@ -273,7 +273,7 @@ def silvicultura():
 
         silv1.image(Image.open(qrcode_form_dose).resize((200,200)))
 
-        silv1.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Survey - Formiga Dose")
+        silv1.write("&nbsp;&nbsp;&nbsp;Survey - Formiga Dose")
 
         silv2.image(Image.open(qrcode_form_acmp).resize((200,200)))
 
