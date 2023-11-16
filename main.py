@@ -179,7 +179,7 @@ def home_page():
 
         col12.markdown(f'&nbsp;&nbsp;&nbsp;[Silvicultura]({pbi_silvicultura})',unsafe_allow_html = True)
 
-        col13.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Logística]({pbi_carregamento})',unsafe_allow_html = True)
+        col13.markdown(f'&nbsp;&nbsp;[Logística Florestal]({pbi_carregamento})',unsafe_allow_html = True)
 
         col14.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Colheita]({pbi_desenvolvimento})',unsafe_allow_html = True)
 
@@ -532,7 +532,7 @@ def planejamento():
 #Botões e Páginas
 with st.container():
     st.sidebar.title('Navegação')
-    paginas = ['Home Page','Viveiro', 'Silvicultura', 'Carregamento', 'Colheita', 'Planejamento']
+    paginas = ['Home Page','Viveiro', 'Silvicultura', 'Logística Florestal', 'Colheita', 'Planejamento']
     escolha_pagina = st.sidebar.radio('Escolha uma página', paginas, index=0)
 
     if escolha_pagina == 'Home Page':
@@ -541,7 +541,7 @@ with st.container():
         viveiro()
     elif escolha_pagina == 'Silvicultura':
         silvicultura()
-    elif escolha_pagina == 'Carregamento':
+    elif escolha_pagina == 'Logística Florestal':
         carregamento()
     elif escolha_pagina == 'Colheita':
         colheita()
