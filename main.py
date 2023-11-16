@@ -14,35 +14,35 @@ st.set_page_config(
 
 # Formulários
 
-qrcode_carregamento_1_nivel = r'\qrcode_survey\carregamento_1_nivel.png'
+qrcode_carregamento_1_nivel = r'/qrcode_survey/carregamento_1_nivel.png'
 
-qrcode_carregamento_logistica = r'\qrcode_survey\carregamento_logistica.png'
+qrcode_carregamento_logistica = r'/qrcode_survey/carregamento_logistica.png'
 
-qrcode_desperdicio = r'\qrcode_survey\desperdicio.png'
+qrcode_desperdicio = r'/qrcode_survey/desperdicio.png'
 
-qrdcode_estradas_v1 = r'\qrcode_survey\estradas_v1.png'
+qrdcode_estradas_v1 = r'/qrcode_survey/estradas_v1.png'
 
-qrcode_estradas = r'\qrcode_survey\estradas.png'
+qrcode_estradas = r'/qrcode_survey/estradas.png'
 
-qrcode_apont_prod = r'\qrcode_survey\prod_segundo_nivel.png'
+qrcode_apont_prod = r'/qrcode_survey/prod_segundo_nivel.png'
 
-qrcode_prod_tecnicos = r'\qrcode_survey\prod_tecnicos.png'
+qrcode_prod_tecnicos = r'/qrcode_survey/prod_tecnicos.png'
 
-qrcode_plantio = r'\qrcode_survey\plantio.png'
+qrcode_plantio = r'/qrcode_survey/plantio.png'
 
-qrcode_preparo = r'\qrcode_survey\preparo_solo.png'
+qrcode_preparo = r'/qrcode_survey/preparo_solo.png'
 
-qrcode_adub_herb_prec = r'\qrcode_survey\adub_herb_prec.png'
+qrcode_adub_herb_prec = r'/qrcode_survey/adub_herb_prec.png'
 
-qrcode_aducob = r'\qrcode_survey\adub_cob.png'
+qrcode_aducob = r'/qrcode_survey/adub_cob.png'
 
-qrcode_irrig = r'\qrcode_survey\irrigacao.png'
+qrcode_irrig = r'/qrcode_survey/irrigacao.png'
 
-qrcode_form_dose = r'\qrcode_survey\formiga_dose.png'
+qrcode_form_dose = r'/qrcode_survey/formiga_dose.png'
 
-qrcode_form_acmp = r'\qrcode_survey\formiga_acom.png'
+qrcode_form_acmp = r'/qrcode_survey/formiga_acom.png'
 
-qrcode_pulverizacao = r'\qrcode_survey\pulverizacao.png'
+qrcode_pulverizacao = r'/qrcode_survey/pulverizacao.png'
 
 
 
@@ -50,17 +50,17 @@ qrcode_pulverizacao = r'\qrcode_survey\pulverizacao.png'
 
 
 
-adriana = r"Colaboradores\Adriana.jpg"
+adriana = r"Colaboradores/Adriana.jpg"
 
-daniel = r'F:\Qualidade_Florestal\03- ADMINISTRATIVO\2023\06- COLABORADORES\Gabriel\14 - Painel de Qualidade\Colaboradores\Daniel.jpg'
+daniel = r'Colaboradores/Daniel.jpg'
 
-rafael = r'F:\Qualidade_Florestal\03- ADMINISTRATIVO\2023\06- COLABORADORES\Gabriel\14 - Painel de Qualidade\Colaboradores\Rafael.jpg'
+rafael = r'Colaboradores/Rafael.jpg'
 
-thiago = r'F:\Qualidade_Florestal\03- ADMINISTRATIVO\2023\06- COLABORADORES\Gabriel\14 - Painel de Qualidade\Colaboradores\Thiago.png'
+thiago = r'Colaboradores/Thiago.png'
 
-leticia = r'Colaboradores\leticia.jpg'
+leticia = r'Colaboradores/leticia.jpg'
 
-renan = r'F:\Qualidade_Florestal\03- ADMINISTRATIVO\2023\06- COLABORADORES\Gabriel\14 - Painel de Qualidade\Colaboradores\renan.jpg'
+renan = r'Colaboradores/renan.jpg'
 
 
 #Power Bi
@@ -110,14 +110,15 @@ path_silv = r'\\Glwfs02\utilitarios\Publica\Florestal\Relatórios de Qualidade\A
 
 #icones
 
-mudas = r'F:\Qualidade_Florestal\03- ADMINISTRATIVO\2023\06- COLABORADORES\Gabriel\14 - Painel de Qualidade\icones\plant.png'
+mudas = r'icones/plant.png'
 
-calendario = r'F:\Qualidade_Florestal\03- ADMINISTRATIVO\2023\06- COLABORADORES\Gabriel\14 - Painel de Qualidade\icones\calendario.png'
+calendario = r'icones/calendario.png'
 
-cadastro = r'F:\Qualidade_Florestal\03- ADMINISTRATIVO\2023\06- COLABORADORES\Gabriel\14 - Painel de Qualidade\icones\cadastro.png'
+cadastro = r'icones/cadastro.png'
 
-loading = r'F:\Qualidade_Florestal\03- ADMINISTRATIVO\2023\06- COLABORADORES\Gabriel\14 - Painel de Qualidade\icones\loading.png'
+loading = r'icones/loading.png'
 
+logo_path = r'icones/logo - Bracell.jpg'
 
 #contatos
 
@@ -137,8 +138,6 @@ gabriel_e = 'gamoura'
 
 
 def home_page():
-
-    logo_path = r'icones/logo - Bracell.jpg'
 
     st.image(Image.open(logo_path).resize((200, 50)))
 
@@ -207,8 +206,7 @@ def home_page():
 
 
 def viveiro():
-    logo_path = r'F:\Qualidade_Florestal\03- ADMINISTRATIVO\2023\06- COLABORADORES\Gabriel\14 - Painel de Qualidade\icones\logo - Bracell.jpg'
-
+    
     st.image(Image.open(leticia).resize((100,100)))
 
 
@@ -232,8 +230,7 @@ def viveiro():
 
 
 def silvicultura():
-    logo_path = r'F:\Qualidade_Florestal\03- ADMINISTRATIVO\2023\06- COLABORADORES\Gabriel\14 - Painel de Qualidade\icones\logo - Bracell.jpg'
-
+   
     st.image(Image.open(thiago).resize((100,100)))
 
 
@@ -330,10 +327,7 @@ def silvicultura():
 
 
 def carregamento():
-    logo_path = r'F:\Qualidade_Florestal\03- ADMINISTRATIVO\2023\06- COLABORADORES\Gabriel\14 - Painel de Qualidade\icones\logo - Bracell.jpg'
-
     st.image(Image.open(daniel).resize((100,100)))
-
 
     st.image(Image.open(logo_path).resize((200, 50)))
 
@@ -414,8 +408,7 @@ def carregamento():
 
 
 def colheita():
-    logo_path = r'F:\Qualidade_Florestal\03- ADMINISTRATIVO\2023\06- COLABORADORES\Gabriel\14 - Painel de Qualidade\icones\logo - Bracell.jpg'
-
+    
     st.image(Image.open(renan).resize((100,100)))
 
 
@@ -439,8 +432,7 @@ def colheita():
 
 
 def planejamento():
-    logo_path = r'F:\Qualidade_Florestal\03- ADMINISTRATIVO\2023\06- COLABORADORES\Gabriel\14 - Painel de Qualidade\icones\logo - Bracell.jpg'
-
+    
     st.image(Image.open(adriana).resize((100,100)))
 
     st.image(Image.open(logo_path).resize((200, 50)))
