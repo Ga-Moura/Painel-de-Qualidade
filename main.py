@@ -231,7 +231,7 @@ def viveiro():
 
 def silvicultura():
    
-    st.image(Image.open(thiago).resize((110,110)))
+    st.image(Image.open(thiago).resize((120,120)))
 
 
     st.image(Image.open(logo_path).resize((200, 50)))
