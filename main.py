@@ -565,6 +565,6 @@ with st.container():
     elif escolha_pagina == 'Planejamento':
         planejamento()
 
-    elif escolha_pagina == 'Qualidade 4.0'
+    elif escolha_pagina == 'Qualidade 4.0':
         torre()
 
