@@ -49,6 +49,7 @@ qrcode_pulverizacao = r'qrcode_survey/pulverizacao.png'
 # Foto Time São Paulo
 
 
+gabriel = r'Colaboradores/gabriel.png'
 
 adriana = r"Colaboradores/Adriana.jpg"
 
@@ -529,6 +530,7 @@ def planejamento():
         
 
 def torre():
+    st.image(Image.open(gabriel).resize((100,100)))
     
     st.image(Image.open(logo_path).resize((200, 50)))
 
