@@ -2,13 +2,19 @@ import streamlit as st
 from PIL import Image
 import os
 
+custom_theme = {
+    "base": "light",
+    "primaryColor": "#b5b5b5",}
+
+
 
  # Configurando a largura da tela e ativando o desativando o sidebar
 st.set_page_config(
     page_title="Painel de Qualidade",
     layout='wide',
     page_icon=":bar_chart:",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="expanded",
+    **custom_theme
                 )
 
 
@@ -226,7 +232,6 @@ def viveiro():
         viv_col1.subheader('Em desenvolvimento')
 
         viv_col2.image(Image.open(loading).resize((50,50)))
-
 
 
 def silvicultura():
@@ -529,10 +534,22 @@ def planejamento():
         plan32.write(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Survey - Técnicos')
         
 
+def torre():
+    
+    st.image(Image.open(logo_path).resize((200, 50)))
+
+    st.subheader("Qualidade 4.0")
+
+    st.write('<b>Controles da Transformação digital</b>', unsafe_allow_html=True)
+
+    st.markdown('<hr style="border-top: 1px solid #40d925;">',unsafe_allow_html=True)
+
+
+
 #Botões e Páginas
 with st.container():
     st.sidebar.title('Navegação')
-    paginas = ['Home Page','Viveiro', 'Silvicultura', 'Logística Florestal', 'Colheita', 'Planejamento']
+    paginas = ['Home Page','Viveiro', 'Silvicultura', 'Logística Florestal', 'Colheita', 'Planejamento', 'Qualidade 4.0']
     escolha_pagina = st.sidebar.radio('Escolha uma página', paginas, index=0)
 
     if escolha_pagina == 'Home Page':
@@ -547,4 +564,7 @@ with st.container():
         colheita()
     elif escolha_pagina == 'Planejamento':
         planejamento()
+
+    elif escolha_pagina == 'Qualidade 4.0'
+        torre()
 
