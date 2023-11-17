@@ -9,7 +9,7 @@ st.set_page_config(
     layout='wide',
     page_icon=":bar_chart:",
     initial_sidebar_state="expanded",
-)
+                   )
 
 
 # Formulários
@@ -538,6 +538,13 @@ def torre():
 
     st.markdown('<hr style="border-top: 1px solid #40d925;">',unsafe_allow_html=True)
 
+#container de desenvolvimento
+    with st.container():
+        _,_,viv_col1,viv_col2,_ = st.columns(5)
+
+        viv_col1.subheader('Em desenvolvimento')
+
+        viv_col2.image(Image.open(loading).resize((50,50)))
 
 
 #Botões e Páginas
