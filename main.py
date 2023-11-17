@@ -2,11 +2,6 @@ import streamlit as st
 from PIL import Image
 import os
 
-custom_theme = {
-    "base": "light",
-    "primaryColor": "#b5b5b5",}
-
-
 
  # Configurando a largura da tela e ativando o desativando o sidebar
 st.set_page_config(
@@ -14,8 +9,7 @@ st.set_page_config(
     layout='wide',
     page_icon=":bar_chart:",
     initial_sidebar_state="expanded",
-    **custom_theme
-                )
+)
 
 
 # Formulários
