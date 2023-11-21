@@ -551,10 +551,10 @@ def torre():
 #container de teste 
 
     with st.container():
-        _,_,_qld_col11,qld_col12 = st.columns(5)
+        qld_col11,qld_col12 = st.columns(2)
 
         qld_col11.iframe(pbi_cadastro, width=800, height = 600)
-        
+
 
 
 
