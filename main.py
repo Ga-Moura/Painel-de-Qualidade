@@ -544,12 +544,19 @@ def torre():
 
 #container de desenvolvimento
     with st.container():
-        _,_,qld_col1,qld_col2,_ = st.columns(5)
+        _,_,qld_col1,qld_col2,_,_ = st.columns(6)
 
-        qld_col1.subheader('Indicadores - Transformação Digital')
+        qld_col1.subheader('Transformação Digital')
 
         qld_col2.image(Image.open(torre_path).resize((40,40)))
                 
+        qld_col11 = st.columns(1)
+
+        path_teste = '<iframe title="Painel de Atualizações" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=90c9ffd9-4220-4a6f-a384-a551e869ead9&autoAuth=true&ctid=582d9d84-4800-4487-9b24-cdc6471551ae" frameborder="0" allowFullScreen="true"></iframe>'
+
+        qld_col11.iframe(path_teste, width = 800, heigth = 500)
+
+
 
 
 
