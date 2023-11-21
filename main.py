@@ -546,9 +546,10 @@ def torre():
     with st.container():
         _,_,qld_col1,qld_col2,_ = st.columns(5)
 
-        qld_col1.write('Indicadores - Transformação Digital')
+        qld_col1.subheader('Indicadores - Transformação Digital')
 
-        qld_col2.image(Image.open(torre).resize((50,50)))
+        st.image(Image.open(torre).resize((40,40)))
+                
 
 
 
