@@ -548,7 +548,7 @@ def torre():
 
         qld_col1.subheader('Indicadores - Transformação Digital')
 
-        st.image(Image.open(torre_path).resize((40,40)))
+        qld_col2.image(Image.open(torre_path).resize((40,40)))
                 
 
 
