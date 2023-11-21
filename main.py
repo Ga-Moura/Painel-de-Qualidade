@@ -550,7 +550,7 @@ def torre():
 
         qld_col1.image(Image.open(torre_path).resize((100,100)))
                 
-        qld_col1.markdown(f'&nbsp;&nbsp;&nbsp;[Indicadores]({pbi_qld_torre})')
+        qld_col1.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;[Indicadores]({pbi_qld_torre})')
 
 
 
