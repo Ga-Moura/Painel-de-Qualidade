@@ -121,6 +121,8 @@ loading = r'icones/loading.png'
 
 logo_path = r'icones/logo - Bracell.jpg'
 
+torre = r'icones/torre.png'
+
 #contatos
 
 leticia_e = 'lcury'
@@ -544,9 +546,12 @@ def torre():
     with st.container():
         _,_,qld_col1,qld_col2,_ = st.columns(5)
 
-        qld_col1.subheader('Em desenvolvimento')
+        qld_col1.subheader('Indicadores - Transformação Digital')
 
-        qld_col2.image(Image.open(loading).resize((50,50)))
+        qld_col2.image(Image.open(torre).resize((50,50)))
+
+
+
 
 
 
