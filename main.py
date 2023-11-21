@@ -546,15 +546,11 @@ def torre():
 
 #container de desenvolvimento
     with st.container():
-        _,_,qld_col1,qld_col2,_,_ = st.columns(6)
+        _,_,qld_col1,_,_ = st.columns(5)
 
-        qld_col1.subheader('Qualidade 4.0')
-
-        qld_col2.image(Image.open(torre_path).resize((40,40)))
+        qld_col1.image(Image.open(torre_path).resize((100,100)))
                 
-        _,_,_,qld_col11,_,_,_ = st.columns(7)
-        
-        qld_col11.markdown(f'[Transformação Digital]({pbi_qld_torre})')
+        qld_col1.markdown(f'[Transformação Digital]({pbi_qld_torre})')
 
 
 
