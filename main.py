@@ -554,7 +554,7 @@ def torre():
 
         path_teste = r'<iframe title="Painel de Atualizações" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=90c9ffd9-4220-4a6f-a384-a551e869ead9&autoAuth=true&ctid=582d9d84-4800-4487-9b24-cdc6471551ae" frameborder="0" allowFullScreen="true"></iframe>'
 
-        qld_col11.iframe(path_teste, width = 800, heigth = 500)
+        qld_col11.iframe(path_teste, width=800, height=500)
 
 
 
