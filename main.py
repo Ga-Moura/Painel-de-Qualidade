@@ -542,11 +542,23 @@ def torre():
 
 #container de desenvolvimento
     with st.container():
-        _,_,viv_col1,viv_col2,_ = st.columns(5)
+        _,_,qld_col1,qld_col2,_ = st.columns(5)
 
-        viv_col1.subheader('Em desenvolvimento')
+        qld_col1.subheader('Em desenvolvimento')
 
-        viv_col2.image(Image.open(loading).resize((50,50)))
+        qld_col2.image(Image.open(loading).resize((50,50)))
+
+#container de teste 
+
+    with st.container():
+        _,_,_qld_col11,qld_col12 = st.columns(5)
+
+        qld_col11.iframe(pbi_cadastro, width=800, height = 600)
+        
+
+
+
+
 
 
 #Botões e Páginas
