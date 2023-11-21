@@ -553,9 +553,6 @@ def torre():
 
 
 
-
-
-
 #Botões e Páginas
 with st.container():
     st.sidebar.title('Navegação')
