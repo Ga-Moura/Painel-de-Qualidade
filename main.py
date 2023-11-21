@@ -121,7 +121,7 @@ loading = r'icones/loading.png'
 
 logo_path = r'icones/logo - Bracell.jpg'
 
-torre = r'icones/torre.png'
+torre_path = r'icones/torre.png'
 
 #contatos
 
@@ -548,7 +548,7 @@ def torre():
 
         qld_col1.subheader('Indicadores - Transformação Digital')
 
-        st.image(Image.open(torre).resize((40,40)))
+        st.image(Image.open(torre_path).resize((40,40)))
                 
 
 
