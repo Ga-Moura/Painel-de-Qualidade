@@ -279,9 +279,7 @@ def silvicultura():
 
         tsilv1.image(Image.open(torre_path).resize((75,75)))
 
-        tsilv1.markdown(f'&nbsp;&nbsp;&nbsp;[Treinamentos]({pbi_treinamentos})')
-
-
+        tsilv1.markdown(f'[Treinamentos]({pbi_treinamentos})')
 
 
         silv1,_,silv2,_,silv3,_,silv4,_ = st.columns(8)
