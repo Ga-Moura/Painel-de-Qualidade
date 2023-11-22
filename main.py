@@ -269,17 +269,18 @@ def silvicultura():
 
     #Informações dos qrcodes
     with st.container():
-        st.subheader("Coletores de Qualidade")
-        st.write('')
-        st.write('')
-        st.write('')
-
 
         _,_,tsilv1,_,_ = st.columns(5)
 
         tsilv1.image(Image.open(torre_path).resize((75,75)))
 
         tsilv1.markdown(f'[Treinamentos]({pbi_treinamentos})')
+
+
+        st.subheader("Coletores de Qualidade")
+        st.write('')
+        st.write('')
+        st.write('')
 
 
         silv1,_,silv2,_,silv3,_,silv4,_ = st.columns(8)
