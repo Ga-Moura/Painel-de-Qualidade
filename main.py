@@ -63,6 +63,7 @@ leticia = r'Colaboradores/leticia.jpg'
 
 renan = r'Colaboradores/renan.jpg'
 
+samuel = 'Colaboradores/samuel.jpg'
 
 #Power Bi
 
