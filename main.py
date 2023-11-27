@@ -271,6 +271,8 @@ def silvicultura():
     #Informações dos qrcodes
     with st.container():
 
+        st.subheader("Indicadores")
+        
         _,_,tsilv1,_,_ = st.columns(5)
 
         tsilv1.image(Image.open(torre_path).resize((75,75)))
@@ -558,6 +560,7 @@ def torre():
 
 #container de desenvolvimento
     with st.container():
+        st.subheader("Indicadores")
         _,_,qld_col1,_,_ = st.columns(5)
 
         qld_col1.image(Image.open(torre_path).resize((100,100)))
