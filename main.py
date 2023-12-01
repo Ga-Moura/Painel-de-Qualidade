@@ -69,7 +69,7 @@ samuel = 'Colaboradores/samuel.jpg'
 
 pbi_carregamento = r'https://app.powerbi.com/reportEmbed?reportId=6a5470fd-6e89-464d-9f70-85a9e6e614f7&autoAuth=true&ctid=582d9d84-4800-4487-9b24-cdc6471551ae'
 
-pbi_silvicultura = r'https://app.powerbi.com/reportEmbed?reportId=2b3bbb87-aae4-40b1-8c33-89c298cc16e9&autoAuth=true&ctid=582d9d84-4800-4487-9b24-cdc6471551ae'
+pbi_silvicultura = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15ae919e99fc/reports/2b3bbb87-aae4-40b1-8c33-89c298cc16e9/ReportSectionb66afd3c296f365a01f1?experience=power-bi'
 
 pbi_aderencia = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15ae919e99fc/reports/0db073cb-4d4d-49a7-b7fb-a848c0400532/ReportSection?experience=power-bi'
 
