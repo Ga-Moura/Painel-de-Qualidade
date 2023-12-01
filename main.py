@@ -67,7 +67,7 @@ samuel = 'Colaboradores/samuel.jpg'
 
 #Power Bi
 
-pbi_carregamento = r'https://app.powerbi.com/reportEmbed?reportId=6a5470fd-6e89-464d-9f70-85a9e6e614f7&autoAuth=true&ctid=582d9d84-4800-4487-9b24-cdc6471551ae'
+pbi_carregamento = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15ae919e99fc/reports/6a5470fd-6e89-464d-9f70-85a9e6e614f7/ReportSection?experience=power-bihttps://app.powerbi.com/reportEmbed?reportId=6a5470fd-6e89-464d-9f70-85a9e6e614f7&autoAuth=true&ctid=582d9d84-4800-4487-9b24-cdc6471551ae'
 
 pbi_silvicultura = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15ae919e99fc/reports/2b3bbb87-aae4-40b1-8c33-89c298cc16e9/ReportSectionb66afd3c296f365a01f1?experience=power-bi'
 
@@ -83,7 +83,7 @@ pbi_desenvolvimento = r'https://app.powerbi.com/reportEmbed?reportId=c46a6580-ba
 
 pbi_qld_torre = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15ae919e99fc/reports/90c9ffd9-4220-4a6f-a384-a551e869ead9/ReportSection?experience=power-bi'
 
-pbi_treinamentos = r'https://app.powerbi.com/reportEmbed?reportId=9c03ebba-c989-45e8-b5ca-032309303ca4&autoAuth=true&ctid=582d9d84-4800-4487-9b24-cdc6471551ae'
+pbi_treinamentos = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15ae919e99fc/reports/9c03ebba-c989-45e8-b5ca-032309303ca4/ReportSectionba60a7c5ba98c77b20e0?experience=power-bi'
 
 
 #paths
