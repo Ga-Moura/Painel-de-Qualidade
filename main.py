@@ -3,6 +3,7 @@ from PIL import Image
 import os
 
 
+
  # Configurando a largura da tela e ativando o desativando o sidebar
 st.set_page_config(
     page_title="Painel de Qualidade",
