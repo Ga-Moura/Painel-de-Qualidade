@@ -190,7 +190,7 @@ def home_page():
 
         col13.markdown(f'[Logística Florestal]({pbi_carregamento})',unsafe_allow_html = True)
 
-        col14.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Colheita]({pbi_desenvolvimento})',unsafe_allow_html = True)
+        col14.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Colheita]({pbi_colheita})',unsafe_allow_html = True)
 
         col15.markdown(f'&nbsp;[Planejamento]({pbi_aderencia})',unsafe_allow_html = True)
 
