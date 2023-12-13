@@ -78,7 +78,7 @@ pbi_sobrevivencia = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15a
 
 pbi_cadastro = r'https://app.powerbi.com/reportEmbed?reportId=564a7c83-00f4-460d-ad84-315478f4a48c&autoAuth=true&ctid=582d9d84-4800-4487-9b24-cdc6471551ae'
 
-pbi_colheita = r'https://app.powerbi.com/reportEmbed?reportId=10b4b397-0ef4-4a15-b8b1-45b30f5d8579&autoAuth=true&ctid=582d9d84-4800-4487-9b24-cdc6471551ae'
+pbi_colheita = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15ae919e99fc/reports/4d02f0c0-4cfb-4f1c-8290-f610f5c7e6e7/ReportSection?experience=power-bi&ctid=582d9d84-4800-4487-9b24-cdc6471551ae'
 
 pbi_desenvolvimento = r'https://app.powerbi.com/reportEmbed?reportId=c46a6580-ba63-4a13-806e-de7d1ffc174c&autoAuth=true&ctid=582d9d84-4800-4487-9b24-cdc6471551ae'
 
