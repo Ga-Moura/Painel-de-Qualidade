@@ -71,13 +71,13 @@ renan = r'Colaboradores/renan.jpg'
 
 icone_silv =r'icones/silvicultura.png'
 
-icone_viv = r'icone/viveiros.png'
+icone_viv = r'icones/viveiros.png'
 
-icone_log = r'icone/carregamento.png'
+icone_log = r'icones/carregamento.png'
 
-icone_col = r'icone/colheita.png'
+icone_col = r'icones/colheita.png'
 
-icone_plan = r'icone/plant.png'
+icone_plan = r'icones/plant.png'
 
 
 
