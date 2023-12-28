@@ -448,9 +448,15 @@ def colheita():
     with st.container():
         _,_,col1,_,_,col2,_,_ = st.columns(8)
 
-        col1.subheader('Harvest')
+        st.subheader('Coletores de Qualidade')
 
-        col1.image(Image.open(qrcode_harvest).resize((50,50)))
+        col1.image(Image.open(qrcode_harvest).resize((200,200)))
+
+        col2.image(Image.open(qrcode_forwarder).resize((200,200)))
+
+        col1.write(f'&nbsp;&nbsp;&nbsp;Survey - Harvester')
+
+        col2.write(f'&nbsp;&nbsp;&nbsp;Survey - Forwarder')
 
 
 
@@ -531,7 +537,7 @@ def planejamento():
 
 
 
-        st.subheader('Coletores')
+        st.subheader('Coletores de Qualidade')
 
         st.write('')
         st.write('')
