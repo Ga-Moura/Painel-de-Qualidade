@@ -45,6 +45,9 @@ qrcode_form_acmp = r'qrcode_survey/formiga_acom.png'
 
 qrcode_pulverizacao = r'qrcode_survey/pulverizacao.png'
 
+qrcode_harvest = r'qrcode_survey/harvester.PNG'
+
+qrcode_forwarder = r'qrcode_survey/forwarder.PNG'
 
 
 # Foto Time São Paulo
@@ -435,7 +438,7 @@ def colheita():
 
     st.subheader("Colheita")
 
-    st.write('<b>Conteúdo da página de Colheita</b>', unsafe_allow_html=True)
+    st.write('<b>Controles de Colheita</b>', unsafe_allow_html=True)
 
     st.markdown('<hr style="border-top: 1px solid #40d925;">',unsafe_allow_html=True)
 
@@ -443,11 +446,14 @@ def colheita():
 
 #container de desenvolvimento
     with st.container():
-        _,_,viv_col1,viv_col2,_ = st.columns(5)
+        _,_,col1,_,_,col2,_,_ = st.columns(8)
 
-        viv_col1.subheader('Em desenvolvimento')
+        col1.subheader('Harvest')
 
-        viv_col2.image(Image.open(loading).resize((50,50)))
+        col1.image(Image.open(qrcode_harvest).resize((50,50)))
+
+
+
 
 
 def planejamento():
