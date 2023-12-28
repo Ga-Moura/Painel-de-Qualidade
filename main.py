@@ -185,7 +185,7 @@ def home_page():
 
         col1, col2, col3, col4, col5 = st.columns(5)
 
-        col1.image(Image.open(icone_viv).resize((100, 100)))
+        col1.image(Image.open(leticia).resize((100, 100)))
 
         col2.image(Image.open(thiago).resize((110,110)))
 
