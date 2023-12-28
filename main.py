@@ -446,9 +446,11 @@ def colheita():
 
 #container de desenvolvimento
     with st.container():
-        _,_,col1,_,_,col2,_,_ = st.columns(8)
 
         st.subheader('Coletores de Qualidade')
+
+        _,_,col1,_,_,col2,_,_ = st.columns(8)
+
 
         col1.image(Image.open(qrcode_harvest).resize((200,200)))
 
