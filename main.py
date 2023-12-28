@@ -67,7 +67,22 @@ leticia = r'Colaboradores/leticia.jpg'
 
 renan = r'Colaboradores/renan.jpg'
 
-samuel = 'Colaboradores/samuel.jpg'
+# Icones
+
+icone_silv =r'icones/silvicultura.png'
+
+icone_viv = r'icone/viveiros.png'
+
+icone_log = r'icone/carregamento.png'
+
+icone_col = r'icone/colheita.png'
+
+icone_plan = r'icone/plant.png'
+
+
+
+
+
 
 #Power Bi
 
@@ -170,7 +185,7 @@ def home_page():
 
         col1, col2, col3, col4, col5 = st.columns(5)
 
-        col1.image(Image.open(leticia).resize((100, 100)))
+        col1.image(Image.open(icone_viv).resize((100, 100)))
 
         col2.image(Image.open(thiago).resize((110,110)))
 
@@ -462,8 +477,6 @@ def colheita():
 
 
 
-
-
 def planejamento():
     
     st.image(Image.open(adriana).resize((100,100)))
@@ -581,7 +594,6 @@ def torre():
         qld_col1.image(Image.open(torre_path).resize((100,100)))
                 
         qld_col1.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;[Indicadores]({pbi_qld_torre})')
-
 
 
 #Botões e Páginas
