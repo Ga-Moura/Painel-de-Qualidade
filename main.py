@@ -77,7 +77,7 @@ icone_log = r'icones/carregamento.png'
 
 icone_col = r'icones/colheita.png'
 
-icone_plan = r'icones/plant.png'
+icone_plan = r'icones/planejamento.png'
 
 
 
@@ -185,15 +185,15 @@ def home_page():
 
         col1, col2, col3, col4, col5 = st.columns(5)
 
-        col1.image(Image.open(leticia).resize((100, 100)))
+        col1.image(Image.open(icone_viv).resize((100, 100)))
 
-        col2.image(Image.open(thiago).resize((110,110)))
+        col2.image(Image.open(icone_silv).resize((110,110)))
 
-        col3.image(Image.open(daniel).resize((100,100)))
+        col3.image(Image.open(icone_log).resize((100,100)))
 
-        col4.image(Image.open(renan).resize((100,100)))
+        col4.image(Image.open(icone_col).resize((100,100)))
 
-        col5.image(Image.open(adriana).resize((100,100)))
+        col5.image(Image.open(icone_plan).resize((100,100)))
 
 
     #Container de indicadores
