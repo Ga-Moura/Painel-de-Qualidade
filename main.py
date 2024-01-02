@@ -234,7 +234,7 @@ def home_page():
 
 def viveiro():
     
-    st.image(Image.open(leticia).resize((100,100)))
+    st.image(Image.open(icone_viv).resize((100,100)))
 
 
     st.image(Image.open(logo_path).resize((200, 50)))
@@ -257,7 +257,7 @@ def viveiro():
 
 def silvicultura():
    
-    st.image(Image.open(thiago).resize((110,110)))
+    st.image(Image.open(icone_silv).resize((110,110)))
 
 
     st.image(Image.open(logo_path).resize((200, 50)))
@@ -364,7 +364,7 @@ def silvicultura():
 
 
 def carregamento():
-    st.image(Image.open(daniel).resize((100,100)))
+    st.image(Image.open(icone_log).resize((100,100)))
 
     st.image(Image.open(logo_path).resize((200, 50)))
 
@@ -446,7 +446,7 @@ def carregamento():
 
 def colheita():
     
-    st.image(Image.open(renan).resize((100,100)))
+    st.image(Image.open(icone_col).resize((100,100)))
 
 
     st.image(Image.open(logo_path).resize((200, 50)))
@@ -479,7 +479,7 @@ def colheita():
 
 def planejamento():
     
-    st.image(Image.open(adriana).resize((100,100)))
+    st.image(Image.open(icone_plan).resize((100,100)))
 
     st.image(Image.open(logo_path).resize((200, 50)))
 
