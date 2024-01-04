@@ -92,7 +92,7 @@ pbi_silvicultura = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15ae
 
 pbi_aderencia = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15ae919e99fc/reports/0db073cb-4d4d-49a7-b7fb-a848c0400532/ReportSection?experience=power-bi'
 
-pbi_sobrevivencia = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15ae919e99fc/reports/116cedc9-5fc4-4034-961e-27e89537919f/ReportSection?experience=power-bi'
+pbi_sobrevivencia = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15ae919e99fc/reports/e182956b-8ff1-4b4e-81bb-3b0b487f0c74/ReportSection?experience=power-bi&ctid=582d9d84-4800-4487-9b24-cdc6471551ae'
 
 pbi_cadastro = r'https://app.powerbi.com/reportEmbed?reportId=564a7c83-00f4-460d-ad84-315478f4a48c&autoAuth=true&ctid=582d9d84-4800-4487-9b24-cdc6471551ae'
 
