@@ -104,6 +104,7 @@ pbi_qld_torre = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15ae919
 
 pbi_treinamentos = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15ae919e99fc/reports/9c03ebba-c989-45e8-b5ca-032309303ca4/ReportSectionba60a7c5ba98c77b20e0?experience=power-bi'
 
+pbi_viveiros = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15ae919e99fc/reports/1572afba-d051-4888-b6b8-97fe04dd06ae/ReportSection?experience=power-bi'
 
 #paths
 
@@ -202,7 +203,7 @@ def home_page():
 
         col11, col12,col13,col14,col15 = st.columns(5)
 
-        col11.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Viveiro]({pbi_desenvolvimento})',unsafe_allow_html = True)
+        col11.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Viveiro]({pbi_viveiros})',unsafe_allow_html = True)
 
         col12.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Silvicultura]({pbi_silvicultura})',unsafe_allow_html = True)
 
