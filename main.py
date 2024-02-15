@@ -67,6 +67,8 @@ leticia = r'Colaboradores/leticia.jpg'
 
 renan = r'Colaboradores/renan.jpg'
 
+maria = r'Colaboradores/maria.jpg'
+
 # Icones
 
 icone_silv =r'icones/silvicultura.png'
