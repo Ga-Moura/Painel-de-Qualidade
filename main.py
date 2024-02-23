@@ -409,7 +409,7 @@ def carregamento():
     with st.container():
 
         st.subheader("Indicadores")
-        _,lcarr,_ ,_,_,_,_,_ = st.columns(7)
+        _,lcarr,_ ,_,_,_,_ = st.columns(7)
 
         lcarr.image(Image.open(cadastro).resize((150,150)))
 
