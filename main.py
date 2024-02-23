@@ -409,11 +409,11 @@ def carregamento():
     with st.container():
 
         st.subheader("Indicadores")
-        lcarr,_,_ ,_,_ ,_,_ = st.columns(7)
+        _,lcarr,_ ,_,_ ,_,_ = st.columns(7)
 
         lcarr.image(Image.open(cadastro).resize((100,100)))
 
-        lcarr.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;[Aderência - Crregamento]({pbi_carregamento_entrega})')
+        st.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;[Aderência - Crregamento]({pbi_carregamento_entrega})')
 
 
 
