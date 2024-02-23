@@ -108,6 +108,8 @@ pbi_treinamentos = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15ae
 
 pbi_viveiros = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15ae919e99fc/reports/1572afba-d051-4888-b6b8-97fe04dd06ae/ReportSection?experience=power-bi'
 
+pbi_carregamento_entrega = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15ae919e99fc/reports/10b4b397-0ef4-4a15-b8b1-45b30f5d8579/ReportSection2dd9f9e5023419e6ce5a?experience=power-bi'
+
 #paths
 
 #Planejamento
@@ -404,7 +406,14 @@ def carregamento():
         #st.write('')
         #st.write('')
         #st.write('')
+    with st.container():
 
+        st.subheader("Indicadores")
+        _,lcarr,_ ,_,_ ,_,_ = st.columns(7)
+
+        lcarr.image(Image.open(cadastro).resize((100,100)))
+
+        lcarr.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;[Aderência]({pbi_carregamento_entrega})')
 
 
 
