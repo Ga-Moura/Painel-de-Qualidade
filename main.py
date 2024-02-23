@@ -413,7 +413,7 @@ def carregamento():
 
         lcarr.image(Image.open(cadastro).resize((150,150)))
 
-        st.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;[Aderência - Carregamento]({pbi_carregamento_entrega})')
+        st.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;[Classificação de Talhões]({pbi_carregamento_entrega})')
 
 
 
