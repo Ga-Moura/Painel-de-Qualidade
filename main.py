@@ -274,7 +274,7 @@ def viveiro():
 
         viv_col3.image(Image.open(qrcode_plantio_estacas).resize((200,200)))
 
-        viv_col3.write("&nbsp;&nbsp;Survey - Plantio de Estacas")
+        viv_col3.write("&nbsp;&nbsp;Survey - Plantio Estacas")
 
         viv_col4.image(Image.open(qrcode_minijardim).resize((200,200)))
 
