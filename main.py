@@ -49,6 +49,15 @@ qrcode_harvest = r'qrcode_survey/harvester.PNG'
 
 qrcode_forwarder = r'qrcode_survey/forwarder.PNG'
 
+qrcode_1selecao = r'qrcode_survey/1_selecao.png'
+
+qrcode_2selecao = r'qrcode_survey/2_selecao.png'
+
+qrcode_plantio_estacas = r'qrcode_survey/plantio_de_estacas.png'
+
+qrcode_minijardim = r'qrcode_survey/mini_jardim.png'
+
+
 
 # Foto Time São Paulo
 
@@ -239,7 +248,7 @@ def home_page():
 
 def viveiro():
     
-    st.image(Image.open(leticia).resize((100,100)))
+    st.image(Image.open(maria).resize((100,100)))
 
 
     st.image(Image.open(logo_path).resize((200, 50)))
@@ -253,12 +262,23 @@ def viveiro():
 
 #container de desenvolvimento
     with st.container():
-        _,_,viv_col1,viv_col2,_ = st.columns(5)
+        _,viv_col1,viv_col2,_,viv_col3,_, viv_col4,_ = st.columns(8)
 
-        viv_col1.subheader('Em desenvolvimento')
+        viv_col1.image(Image.open(qrcode_1selecao).resize((200,200)))
 
-        viv_col2.image(Image.open(loading).resize((50,50)))
+        viv_col1.write("&nbsp;&nbsp;Survey - 1ª Seleção")
 
+        viv_col2.image(Image.open(qrcode_2selecao).resize((200,200)))
+
+        viv_col2.write("&nbsp;&nbsp;Survey - 2ª Seleção")
+
+        viv_col3.image(Image.open(qrcode_plantio_estacas).resize((200,200)))
+
+        viv_col3.write("&nbsp;&nbsp;Survey - Plantio de Estacas")
+
+        viv_col4.image(Image.open(qrcode_minijardim).resize((200,200)))
+
+        viv_col4.write("&nbsp;&nbsp;Survey - Mini Jardim")
 
 def silvicultura():
    
@@ -272,25 +292,6 @@ def silvicultura():
     st.write('<b>Controles de Silvicultura</b>', unsafe_allow_html=True)
 
     st.markdown('<hr style="border-top: 1px solid #40d925;">',unsafe_allow_html=True)
-
-
-    #container de paths
-    #with st.container():
-    #    st.subheader('Consultas')
-    #    st.write('')
-    #    st.write('')
-    #    st.write('')
-
-        #silv_path,_ = st.columns(2)
-
-        #if silv_path.button('Relatórios Operacionais 2° Nível', type = 'secondary'):
-        #    os.startfile(path_silv)
-
-        #st.write('')
-        #st.write('')
-        #st.write('')
-        #st.write('')
-
 
     #Informações dos qrcodes
     with st.container():
