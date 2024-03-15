@@ -262,7 +262,7 @@ def viveiro():
 
 #container de desenvolvimento
     with st.container():
-        _,viv_col1,viv_col2,_,viv_col3,_, viv_col4,_ = st.columns(8)
+        _,viv_col1,_,viv_col2,_,viv_col3,_, viv_col4,_ = st.columns(9)
 
         viv_col1.image(Image.open(qrcode_1selecao).resize((200,200)))
 
