@@ -262,14 +262,13 @@ def viveiro():
 
 #container de desenvolvimento
     with st.container():
-        _,viv_col1,_,viv_col2,_,viv_col3,_, viv_col4,_ = st.columns(9)
-        
         
         st.subheader("Coletores de Qualidade")
         st.write('')
         st.write('')
         st.write('')
 
+        _,viv_col1,_,viv_col2,_,viv_col3,_, viv_col4,_ = st.columns(9)
 
         viv_col1.image(Image.open(qrcode_1selecao).resize((200,200)))
 
