@@ -97,7 +97,7 @@ icone_plan = r'icones/planejamento.png'
 
 #Power Bi
 
-pbi_carregamento = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15ae919e99fc/reports/cb7a1b8f-a66a-47af-a26c-f0d732288214/ReportSection?experience=power-bi'
+pbi_carregamento = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15ae919e99fc/reports/a521c293-a0ae-4ff4-8326-de0ff3d98f44/ReportSection?experience=power-bi'
 
 pbi_silvicultura = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15ae919e99fc/reports/2b3bbb87-aae4-40b1-8c33-89c298cc16e9/ReportSectionb66afd3c296f365a01f1?experience=power-bi'
 
