@@ -465,7 +465,7 @@ def carregamento():
 
 def colheita():
     
-    st.image(Image.open(renan).resize((100,100)))
+    st.image(Image.open(daniel).resize((100,100)))
 
 
     st.image(Image.open(logo_path).resize((200, 50)))
