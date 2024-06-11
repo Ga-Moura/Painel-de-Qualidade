@@ -119,6 +119,9 @@ pbi_viveiros = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15ae919e
 
 pbi_carregamento_entrega = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15ae919e99fc/reports/10b4b397-0ef4-4a15-b8b1-45b30f5d8579/ReportSection2dd9f9e5023419e6ce5a?experience=power-bi'
 
+pbi_plan_colheita = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15ae919e99fc/reports/4a2daa8d-8081-4bf2-9baa-92c307f3e5e5/ReportSection?experience=power-bi'
+
+
 #paths
 
 #Planejamento
@@ -565,7 +568,7 @@ def planejamento():
 
         lplan12.markdown(f'[Sobrevivência]({pbi_sobrevivencia})')
          
-        lplan13.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Colheita]({pbi_cadastro})')
+        lplan13.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Colheita]({pbi_plan_colheita})')
 
         lplan14.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;[Cadastro]({pbi_cadastro})')
 
