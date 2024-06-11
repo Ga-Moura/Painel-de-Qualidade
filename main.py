@@ -121,6 +121,8 @@ pbi_carregamento_entrega = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-9
 
 pbi_plan_colheita = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15ae919e99fc/reports/4a2daa8d-8081-4bf2-9baa-92c307f3e5e5/ReportSection?experience=power-bi'
 
+pbi_plan_estradas = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15ae919e99fc/reports/b9d034e7-bd77-4239-bb2a-5f79174c2557/ReportSection?experience=power-bi'
+
 
 #paths
 
@@ -165,6 +167,8 @@ logo_path = r'icones/logo - Bracell.jpg'
 torre_path = r'icones/torre.png'
 
 plan_col = r'icones/planejamento_col.png'
+
+plan_estradas = r'icones/estradas.png'
 
 #contatos
 
@@ -547,7 +551,7 @@ def planejamento():
     with st.container():
 
         st.subheader("Indicadores")
-        _,lplan1,_ ,lplan2,_ ,lplan3,_ ,lplan4,_= st.columns(9)
+        _,lplan1,_ ,lplan2,_ ,lplan3,_ ,lplan4,_,lplan5,_= st.columns(11)
 
 
         lplan1.image(Image.open(calendario).resize((100,100)))
@@ -556,13 +560,15 @@ def planejamento():
         
         lplan3.image(Image.open(plan_col).resize((100,100)))
         
-        lplan4.image(Image.open(cadastro).resize((100,100)))
+        lplan4.image(Image.open(plan_estradas).resize((100,100)))
+
+        lplan5.image(Image.open(cadastro).resize((100,100)))
 
 
 #container dos links power bi
     with st.container():
 
-        _,lplan11,_,lplan12,_,lplan13,_,lplan14,_ = st.columns(9)
+        _,lplan11,_,lplan12,_,lplan13,_,lplan14,_,lplan15,_ = st.columns(11)
 
         lplan11.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;[Silvicultura]({pbi_aderencia})')
 
@@ -570,7 +576,9 @@ def planejamento():
          
         lplan13.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Colheita]({pbi_plan_colheita})')
 
-        lplan14.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;[Cadastro]({pbi_cadastro})')
+        lplan14.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Estradas]({pbi_plan_estradas})')
+
+        lplan15.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;[Cadastro]({pbi_cadastro})')
 
 
 #container do qrcode
