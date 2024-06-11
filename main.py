@@ -565,7 +565,7 @@ def planejamento():
 
         lplan12.markdown(f'[Sobrevivência]({pbi_sobrevivencia})')
          
-        lplan13.markdown(f'&nbsp;&nbsp;&nbsp;[Colheita]({pbi_cadastro})')
+        lplan13.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Colheita]({pbi_cadastro})')
 
         lplan14.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;[Cadastro]({pbi_cadastro})')
 
