@@ -564,7 +564,7 @@ def planejamento():
 
         _,lplan11,_,lplan12,_,lplan13,_,lplan14,_ = st.columns(9)
 
-        lplan11.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;[Aderência]({pbi_aderencia})')
+        lplan11.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;[Silvicultura]({pbi_aderencia})')
 
         lplan12.markdown(f'[Sobrevivência]({pbi_sobrevivencia})')
          
