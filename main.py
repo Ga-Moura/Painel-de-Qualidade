@@ -544,7 +544,7 @@ def planejamento():
     with st.container():
 
         st.subheader("Indicadores")
-        _,lplan1,_ ,lplan2,_ ,lplan3,_ ,lplan4= st.columns(8)
+        _,lplan1,_ ,lplan2,_ ,lplan3,_ ,lplan4,_= st.columns(9)
 
 
         lplan1.image(Image.open(calendario).resize((100,100)))
@@ -559,7 +559,7 @@ def planejamento():
 #container dos links power bi
     with st.container():
 
-        _,lplan11,_,lplan12,_,lplan13,_,lplan14 = st.columns(8)
+        _,lplan11,_,lplan12,_,lplan13,_,lplan14,_ = st.columns(9)
 
         lplan11.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;[Aderência]({pbi_aderencia})')
 
