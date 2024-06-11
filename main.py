@@ -161,6 +161,8 @@ logo_path = r'icones/logo - Bracell.jpg'
 
 torre_path = r'icones/torre.png'
 
+plan_col = r'icones/planejamento_col.png'
+
 #contatos
 
 leticia_e = 'lcury'
@@ -302,13 +304,15 @@ def silvicultura():
     #Informações dos qrcodes
     with st.container():
 
-        st.subheader("Indicadores")
+        #retirado parte de treinamentos
+
+        #st.subheader("Indicadores")
         
-        _,_,tsilv1,_,_ = st.columns(5)
+        #_,_,tsilv1,_,_ = st.columns(5)
 
-        tsilv1.image(Image.open(torre_path).resize((75,75)))
+        #tsilv1.image(Image.open(torre_path).resize((75,75)))
 
-        tsilv1.markdown(f'[Treinamentos]({pbi_treinamentos})')
+        #tsilv1.markdown(f'[Treinamentos]({pbi_treinamentos})')
 
 
         st.subheader("Coletores de Qualidade")
@@ -540,26 +544,30 @@ def planejamento():
     with st.container():
 
         st.subheader("Indicadores")
-        _,lplan1,_ ,lplan2,_ ,lplan3,_ = st.columns(7)
+        _,lplan1,_ ,lplan2,_ ,lplan3,_ ,lplan4= st.columns(8)
 
 
         lplan1.image(Image.open(calendario).resize((100,100)))
 
         lplan2.image(Image.open(mudas).resize((100,100)))
         
-        lplan3.image(Image.open(cadastro).resize((100,100)))
+        lplan3.image(Image.open(plan_col).resize((100,100)))
+        
+        lplan4.image(Image.open(cadastro).resize((100,100)))
 
 
 #container dos links power bi
     with st.container():
 
-        _,lplan11,_,lplan12,_,lplan13,_ = st.columns(7)
+        _,lplan11,_,lplan12,_,lplan13,_,lplan14 = st.columns(8)
 
         lplan11.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;[Aderência]({pbi_aderencia})')
 
         lplan12.markdown(f'[Sobrevivência]({pbi_sobrevivencia})')
          
-        lplan13.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;[Cadastro]({pbi_cadastro})')
+        lplan13.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;[Planejamento de Colheita]({pbi_cadastro})')
+
+        lplan14.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;[Cadastro]({pbi_cadastro})')
 
 
 #container do qrcode
