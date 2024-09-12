@@ -223,7 +223,7 @@ def home_page():
 
         col5.image(Image.open(icone_plan).resize((100,100)))
 
-        col6.image(Image.open(icone_sop).resize((100,100)))
+        col6.image(Image.open(icone_sop).resize((110,110)))
 
 
     #Container de indicadores
@@ -242,7 +242,7 @@ def home_page():
 
         col15.markdown(f'&nbsp;[Planejamento]({pbi_aderencia})',unsafe_allow_html = True)
 
-        col16.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SOP]({pbi_sop})',unsafe_allow_html=True)
+        col16.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SOP]({pbi_sop})',unsafe_allow_html=True)
 
     #Container de e-mails
     #with st.container():
