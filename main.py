@@ -90,6 +90,8 @@ icone_col = r'icones/colheita.png'
 
 icone_plan = r'icones/planejamento.png'
 
+icone_sop = r'icones/sop.png'
+
 
 
 
@@ -122,6 +124,9 @@ pbi_carregamento_entrega = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-9
 pbi_plan_colheita = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15ae919e99fc/reports/4a2daa8d-8081-4bf2-9baa-92c307f3e5e5/ReportSection?experience=power-bi'
 
 pbi_plan_estradas = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15ae919e99fc/reports/b9d034e7-bd77-4239-bb2a-5f79174c2557/ReportSection?experience=power-bi'
+
+pbi_sop = r'https://app.powerbi.com/groups/me/apps/ca9954f9-0d3b-4f9d-8897-b0d76d4a34b2/reports/89bcfb94-3be3-4516-bf9a-f857ca96205f/cc30c0285018d25d8fd6?ctid=582d9d84-4800-4487-9b24-cdc6471551ae&experience=power-bi'
+
 
 
 #paths
@@ -206,7 +211,7 @@ def home_page():
     #Container de Fotos
     with st.container():
 
-        col1, col2, col3, col4, col5 = st.columns(5)
+        col1, col2, col3, col4, col5 , col6 = st.columns(6)
 
         col1.image(Image.open(icone_viv).resize((100, 100)))
 
@@ -218,12 +223,14 @@ def home_page():
 
         col5.image(Image.open(icone_plan).resize((100,100)))
 
+        col6.image(Image.open(icone_sop).resize((100,100)))
+
 
     #Container de indicadores
 
     with st.container():
 
-        col11, col12,col13,col14,col15 = st.columns(5)
+        col11, col12,col13,col14,col15,col16 = st.columns(6)
 
         col11.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Viveiro]({pbi_viveiros})',unsafe_allow_html = True)
 
@@ -235,6 +242,7 @@ def home_page():
 
         col15.markdown(f'&nbsp;[Planejamento]({pbi_aderencia})',unsafe_allow_html = True)
 
+        col16.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SOP]({pbi_sop})',unsafe_allow_html=True)
 
     #Container de e-mails
     #with st.container():
