@@ -223,7 +223,7 @@ def home_page():
 
         col5.image(Image.open(icone_plan).resize((100,100)))
 
-        col6.image(Image.open(icone_sop).resize((110,110)))
+        col6.image(Image.open(icone_sop).resize((115,115)))
 
 
     #Container de indicadores
