@@ -643,7 +643,7 @@ def torre():
 #container de desenvolvimento
     with st.container():
         st.subheader("Indicadores")
-        _,_,qld_col1,_,_ = st.columns(5)
+        qld_col1,_,_,_,_ = st.columns(5)
 
         qld_col1.image(Image.open(torre_path).resize((100,100)))
                 
@@ -659,9 +659,9 @@ def torre():
         _,_,text1,_,_ = st.columns(5)
 
 
-        col1.image(Image.open(qrcode_qualidesk).resize((100,100)))
+        col1.image(Image.open(qrcode_qualidesk).resize((200,200)))
         
-        text1.write(f'&nbsp;&nbsp;&nbsp;&nbsp;Qualidesk')
+        text1.write(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Survey - Qualidesk')
 
 
 #Botões e Páginas
