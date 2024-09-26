@@ -655,11 +655,11 @@ def torre():
 
         st.subheader('Coletor de Qualidesk')
 
-        _,_,_,_,col1,_,_,_ = st.columns(8)
+        _,_,_,col1,_,_,_ = st.columns(8)
 
 
         col1.image(Image.open(qrcode_qualidesk).resize((200,200)))
-
+        col1.write(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Survey - Técnicos')
 
 
 #Botões e Páginas
