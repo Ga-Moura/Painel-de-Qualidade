@@ -661,7 +661,7 @@ def torre():
 
         col1.image(Image.open(qrcode_qualidesk).resize((100,100)))
         
-        text1.write(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Survey - Técnicos')
+        text1.write(f'&nbsp;&nbsp;&nbsp;&nbsp;;Survey - Qualidesk')
 
 
 #Botões e Páginas
