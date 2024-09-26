@@ -653,7 +653,7 @@ def torre():
     #container de desenvolvimento
     with st.container():
 
-        st.subheader('Coletor de Qualidesk')
+        st.subheader('Coletor Qualidesk')
 
         _,_,col1,_,_= st.columns(5)
         _,_,text1,_,_ = st.columns(5)
