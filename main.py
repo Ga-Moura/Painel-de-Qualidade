@@ -78,6 +78,10 @@ renan = r'Colaboradores/renan.jpg'
 
 maria = r'Colaboradores/maria.jpg'
 
+thasso = r'Colaboradores/thasso.png'
+
+
+
 # Icones
 
 icone_silv =r'icones/silvicultura.png'
@@ -302,6 +306,8 @@ def viveiro():
         viv_col4.image(Image.open(qrcode_minijardim).resize((200,200)))
 
         viv_col4.write("&nbsp;&nbsp;Survey - Mini Jardim")
+
+
 
 def silvicultura():
    
@@ -622,7 +628,7 @@ def planejamento():
         
 
 def torre():
-    st.image(Image.open(gabriel).resize((100,100)))
+    st.image(Image.open(thasso).resize((100,100)))
     
     st.image(Image.open(logo_path).resize((200, 50)))
 
