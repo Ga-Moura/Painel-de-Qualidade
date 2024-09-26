@@ -57,6 +57,8 @@ qrcode_plantio_estacas = r'qrcode_survey/plantio_de_estacas.png'
 
 qrcode_minijardim = r'qrcode_survey/mini_jardim.png'
 
+qrcode_qualidesk = r'qrcode_survey/qualidesk.png'
+
 
 
 # Foto Time São Paulo
@@ -646,6 +648,18 @@ def torre():
         qld_col1.image(Image.open(torre_path).resize((100,100)))
                 
         qld_col1.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;[Indicadores]({pbi_qld_torre})')
+
+
+    #container de desenvolvimento
+    with st.container():
+
+        st.subheader('Coletor de Qualidesk')
+
+        _,_,_,_,col1,_,_,_ = st.columns(8)
+
+
+        col1.image(Image.open(qrcode_qualidesk).resize((200,200)))
+
 
 
 #Botões e Páginas
