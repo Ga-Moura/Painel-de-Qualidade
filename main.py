@@ -131,7 +131,7 @@ pbi_plan_colheita = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15a
 
 pbi_plan_estradas = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15ae919e99fc/reports/b9d034e7-bd77-4239-bb2a-5f79174c2557/ReportSection?experience=power-bi'
 
-pbi_sop = r'https://app.powerbi.com/groups/me/apps/ca9954f9-0d3b-4f9d-8897-b0d76d4a34b2/reports/89bcfb94-3be3-4516-bf9a-f857ca96205f/cc30c0285018d25d8fd6?ctid=582d9d84-4800-4487-9b24-cdc6471551ae&experience=power-bi'
+pbi_sop = r'https://app.powerbi.com/Redirect?action=OpenApp&appId=6e3e4053-398d-4f70-9c59-480559b0288b&ctid=582d9d84-4800-4487-9b24-cdc6471551ae&experience=power-bi'
 
 
 
