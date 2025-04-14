@@ -98,8 +98,7 @@ icone_plan = r'icones/planejamento.png'
 
 icone_sop = r'icones/sop.png'
 
-
-
+icone_treinamentos = r'icones/treinamento.png'
 
 
 
@@ -133,6 +132,7 @@ pbi_plan_estradas = r'https://app.powerbi.com/groups/8f026f89-78ef-45ac-957e-15a
 
 pbi_sop = r'https://app.powerbi.com/Redirect?action=OpenApp&appId=6e3e4053-398d-4f70-9c59-480559b0288b&ctid=582d9d84-4800-4487-9b24-cdc6471551ae&experience=power-bi'
 
+pbi_treinamento = r'https://app.powerbi.com/groups/me/reports/bf42d3fa-4530-4eaf-ae33-f8f7e05199a1/ReportSection?ctid=582d9d84-4800-4487-9b24-cdc6471551ae&experience=power-bi'
 
 
 #paths
@@ -217,7 +217,7 @@ def home_page():
     #Container de Fotos
     with st.container():
 
-        col1, col2, col3, col4, col5 , col6 = st.columns(6)
+        col1, col2, col3, col4, col5 , col6, col7 = st.columns(7)
 
         col1.image(Image.open(icone_viv).resize((100, 100)))
 
@@ -231,12 +231,14 @@ def home_page():
 
         col6.image(Image.open(icone_sop).resize((115,115)))
 
+        col7.Image(Image.open(icone_treinamentos).resize((100,100))
+
 
     #Container de indicadores
 
     with st.container():
 
-        col11, col12,col13,col14,col15,col16 = st.columns(6)
+        col11, col12,col13,col14,col15,col16, col17 = st.columns(7)
 
         col11.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Viveiro]({pbi_viveiros})',unsafe_allow_html = True)
 
@@ -249,6 +251,9 @@ def home_page():
         col15.markdown(f'&nbsp;[Planejamento]({pbi_aderencia})',unsafe_allow_html = True)
 
         col16.markdown(f'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SOP]({pbi_sop})',unsafe_allow_html=True)
+
+        col17.markdown(f'&nbsp;[Treinamentos]({pbi_treinamento})',unsafe_allow_html = True)
+
 
     #Container de e-mails
     #with st.container():
