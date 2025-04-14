@@ -231,7 +231,7 @@ def home_page():
 
         col6.image(Image.open(icone_sop).resize((115,115)))
 
-        col7.Image(Image.open(icone_treinamentos).resize((100,100))
+        col7.Image(Image.open(icone_treinamentos).resize((100,100)))
 
 
     #Container de indicadores
